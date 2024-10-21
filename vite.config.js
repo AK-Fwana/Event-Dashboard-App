@@ -5,6 +5,5 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: '/Event-Dashboard-App/',
   plugins: [react()],
-  
 });
 
