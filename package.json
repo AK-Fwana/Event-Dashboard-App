@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-   "homepage": "https://ak-fwana.github.io/Event-Dashboard-App.git",
+   "homepage": "https://ak-fwana.github.io/Event-Dashboard-App/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
