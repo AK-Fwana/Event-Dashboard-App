@@ -6,27 +6,47 @@ import { EventsPage } from "./pages/EventsPage";
 import { EventPage } from "./pages/EventPage";
 import { Root } from "./components/Root";
 
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Root />,
+//     children: [
+//       {
+//         path: "/",
+//         element: <EventsPage />, 
+//       },
+//       {
+//         path: "/event/:eventId",
+//         element: <EventPage />,
+//       },
+//     ],
+//   },
+// ]);
+
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <React.StrictMode>
+//     <ChakraProvider>
+//       <RouterProvider router={router} /> 
+//     </ChakraProvider>
+//   </React.StrictMode>
+// );
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Root />,
     children: [
-      {
-        path: "/",
-        element: <EventsPage />, // Route for listing events
-      },
-      {
-        path: "/event/:eventId",
-        element: <EventPage />, // Dynamic route for event details
-      },
+      { path: '/', element: <EventsPage /> },
+      { path: '/event/:eventId', element: <EventPage /> },
     ],
   },
-]);
+], {
+  basename: "/Event-Dashboard-App",  // This matches the name of your GitHub repository
+});
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider>
-      <RouterProvider router={router} /> {/* React Router is used here */}
+      <RouterProvider router={router} />
     </ChakraProvider>
   </React.StrictMode>
 );
