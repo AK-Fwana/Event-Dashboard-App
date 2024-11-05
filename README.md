@@ -1,15 +1,15 @@
 # Event Dashboard App
 
-## 📜 Description
+## Description
 
-The Event Dashboard App is a comprehensive React application that allows users to manage and explore events. 
-This project is designed to showcase your skills in HTML, CSS, JavaScript, and React, and incorporates tools 
-such as React Router, JSON server, and ChakraUI for a streamlined and responsive user experience. 
+The Event Dashboard App is a React-based application where you can manage and display events. 
+Developed as part of a course with Winc Academy, this project combines everything learned in HTML, CSS, JavaScript, and React (both basics and advanced) into a complete, functional event management app. The app allows users to:
 
-### Key Features
- ** Event Listings**: Display a list of events with details such as title, description, image, start time, end time, and categories.
- ** CRUD Operations**: Create, update, and delete events, with backend synchronization.
- ** Search & Filter**: Search events by name and filter them by category.
- ** Responsive Design**: Optimized for both desktop and mobile views using ChakraUI components.
- ** User-Friendly Modals**: Edit and delete events using modals with validation and confirmation prompts.
+- Display a list of events
+- Add, edit, and delete events
+- View a detailed page for each event
 
+This app gives you flexibility in using React tools like `useReducer`, `Context`, or component composition to build and manage application state. 
+While the project includes ChakraUI for styling and design consistency, you’re also free to customize the look with your own CSS or custom components.
+
+The project is designed as a portfolio-ready app to showcase my proficiency in React and frontend development. 
