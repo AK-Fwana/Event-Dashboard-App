@@ -24,24 +24,5 @@ add new events, and edit or delete existing ones. Key features include:
 
 [![Watch the Walkthrough](src/Dashboard%20-%20Event%20-%20App.JPG)](https://drive.google.com/file/d/1uHv_xi8eenO2MFyFUv9ZrpsmSk7buYur/view?usp=drive_link)
 
-## 🚀 Getting Started
-
-To set up the project locally:
-
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/AK-Fwana/event-dashboard-app.git
-   cd event-dashboard-app
-2. **Install dependencies**:
-   npm install
-   
-4. **Run the JSON server:**
-   json-server events.json
-   
-5. **Start the app:**
-   npm run dev
-   
-6. Open http://localhost:3000 in your browser.
-
    
 
