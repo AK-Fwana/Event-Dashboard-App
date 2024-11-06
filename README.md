@@ -20,8 +20,9 @@ add new events, and edit or delete existing ones. Key features include:
 2. **Add Event**: Use the form to add new events to the list.
 3. **Edit & Delete**: Modify or remove events with real-time feedback.
 
-### Live Demo
-[Include a link to your demo or a video walkthrough if available]
+### 📹 Project Walkthrough
+
+[![Watch the Walkthrough](src/Dashboard%20-%20Event%20-%20App.JPG)](https://drive.google.com/file/d/1uHv_xi8eenO2MFyFUv9ZrpsmSk7buYur/view?usp=drive_link)
 
 ## 🚀 Getting Started
 
