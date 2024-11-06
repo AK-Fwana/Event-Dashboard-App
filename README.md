@@ -5,9 +5,8 @@ This project was developed as part of the Winc Academy curriculum to showcase sk
 
 ## 📜 Project Description
 
-This app combines the fundamentals and advanced aspects of React to display and manage events. 
-Users can view event details, add new events, and edit or delete existing ones. 
-Key features include:
+This app combines the fundamentals and advanced aspects of React to display and manage events. Users can view event details, 
+add new events, and edit or delete existing ones. Key features include:
 
 - List of all events with relevant details (title, description, start/end time, and categories).
 - Search and filter functionality for easy navigation.
@@ -23,3 +22,25 @@ Key features include:
 
 ### Live Demo
 [Include a link to your demo or a video walkthrough if available]
+
+## 🚀 Getting Started
+
+To set up the project locally:
+
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/AK-Fwana/event-dashboard-app.git
+   cd event-dashboard-app
+2. **Install dependencies**:
+   npm install
+   
+4. **Run the JSON server:**
+   json-server events.json
+   
+5. **Start the app:**
+   npm run dev
+   
+6. Open http://localhost:3000 in your browser.
+
+   
+
